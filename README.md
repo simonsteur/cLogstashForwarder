@@ -28,7 +28,7 @@ This resource requires you to use nssm. https://nssm.cc/
 ## Examples
 This configuration example will place all the required files on the server, install the logstash forwarder as a service using nssm. It will also make sure that the service is always running and starts up automaticly. The configfile specified will be checked for consistency. 
 
-'''Powershell
+```powershell
 Configuration LogstashForwarderDeploy
 {
 
