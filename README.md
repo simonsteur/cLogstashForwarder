@@ -46,10 +46,7 @@ Node 'NodeName'
   }
 
 }
-'''
-
-
-
+```
 ## Links of interest
 * https://groups.google.com/forum/#!topic/logstash-users/Fn-u0HNegv0
 * https://github.com/elastic/logstash-forwarder
