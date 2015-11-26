@@ -36,13 +36,13 @@ Import-DSCResource -ModuleName CLogStashForwarder
 
 Node 'NodeName'
   {
-      Ensure = "Present"
-			State = "Running"
-			StartupType = "Automatic"
-			NSSMDir = "C:\apps\nssm\"
-			NSSMURL = "https://url-to-nssm.exe"
-			Files = "https://url-to-logstashforwarder-files.zip"
-			ConfigFile = "https://url-to-config.json"
+ 	Ensure = "Present"
+	State = "Running"
+	StartupType = "Automatic"
+	NSSMDir = "C:\apps\nssm\"
+	NSSMURL = "https://url-to-nssm.exe"
+	Files = "https://url-to-logstashforwarder-files.zip"
+	ConfigFile = "https://url-to-config.json"
   }
 
 }
